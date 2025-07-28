@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CULT - Currently Unemployed Losing Trades</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+        
+        body {
+            font-family: 'Comic Neue', cursive;
+            background-color: white;
+        }
+        
+        .hand-drawn {
+            border: 3px solid black;
+            border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+            box-shadow: 3px 3px 0px rgba(0,0,0,0.2);
+        }
+        
+        .hand-drawn-btn {
+            border: 2px solid black;
+            border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+            box-shadow: 2px 2px 0px rgba(0,0,0,0.2);
+            transition: all 0.3s ease;
+        }
+        
+        .hand-drawn-btn:hover {
+            transform: translate(-2px, -2px);
+            box-shadow: 4px 4px 0px rgba(0,0,0,0.2);
+        }
+        
+        .underline-drawn {
+            text-decoration: none;
+            background-image: linear-gradient(black, black);
+            background-size: 0% 3px;
+            background-repeat: no-repeat;
+            background-position: left bottom;
+            transition: background-size 0.3s ease;
+        }
+        
+        .underline-drawn:hover {
+            background-size: 100% 3px;
+        }
+        
+        .dotted-bg {
+            background-image: radial-gradient(circle, #000000 1px, rgba(0, 0, 0, 0) 1px);
+            background-size: 15px 15px;
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+    <div class="container mx-auto px-4 py-8">
+        <!-- Header -->
+        <header class="flex flex-col items-center mb-12">
+            <img src="https://i.ibb.co/LXYmNTMz/IMG-0253.jpg" alt="CULT Logo" class="w-32 h-32 mb-4 hand-drawn">
+            <h1 class="text-5xl font-bold text-center mb-2">CURRENTLY UNEMPLOYED LOSING TRADES</h1>
+            <h2 class="text-3xl font-bold text-center">(CULT)</h2>
+        </header>
+        
+        <!-- Main Content -->
+        <main class="max-w-4xl mx-auto">
+            <!-- Intro Section -->
+            <section class="mb-12 p-6 hand-drawn bg-white">
+                <h2 class="text-3xl font-bold mb-4 text-purple-600">Welcome to the cult</h2>
+                <p class="mb-4 text-lg">Where folks dont have all the fancy things a rich person might, where you will get a hand if you put yours out, the CULT is not just a meme, its a collective of mentalities and a space for those living slightly below the lines of "normal" expectation.</p>
+                
+                <p class="mb-4 text-lg">We spend our stimmy checks real quick, we share ganja and pizza hut with our friends on a sunday evening at around 11:30 pm enjoying late night episodes of south park, real quick.</p>
+            </section>
+            
+            <!-- Lifestyle Section -->
+            <section class="mb-12 p-6 hand-drawn bg-yellow-50">
+                <h2 class="text-3xl font-bold mb-4 text-green-600">The CULT Lifestyle</h2>
+                <p class="mb-4 text-lg">We enjoy free entertainment including pirated movies and unlicensed indian midget porn from the comfort of our very own hard earned government or rented homes, we watch the entertainment from the stands in the colosseum, we dont fight like dogs..we spend our stimmys on new little Luis Vuitton booties, for our other halfs handbag dogs..that we walk, every morning, around 1:42pm on the dot.</p>
+                
+                <p class="mb-4 text-lg">We shop at cheap places, such as the dumpster behind the gas station, and our parent's cupboards.</p>
+            </section>
+            
+            <!-- Call to Action Section -->
+            <section class="mb-12 p-6 hand-drawn bg-red-50">
+                <h2 class="text-3xl font-bold mb-4 text-yellow-600">Join the Movement</h2>
+                <p class="mb-4 text-lg">Yes, oh yes! The tales you heard are true, theres nothing that can keep a true cultist down! We are coming together to rise through the pressure to reveal ourselves as the true dandiest, diamond hand dirt digging "dough kneading" cult that has ever walked these dark solana wallstreets</p>
+                
+                <p class="mb-6 text-lg">So join us! In the charge to freedom, through rain sleet and snow of the trenches and you never know, you might just make something of yourself yet, partner!</p>
+                
+                <p class="text-right text-xl font-bold">With love,<br>Brother john</p>
+            </section>
+            
+            <!-- Token Info Section -->
+            <section class="mb-12 p-6 hand-drawn dotted-bg">
+                <h2 class="text-3xl font-bold mb-6 text-center">CULT Token Info</h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <!-- Chart Link -->
+                    <div class="p-4 bg-white hand-drawn">
+                        <h3 class="text-xl font-bold mb-2 text-purple-600">Chart</h3>
+                        <a href="#" class="underline-drawn text-lg">View CULT Price Chart</a>
+                    </div>
+                    
+                    <!-- Telegram Link -->
+                    <div class="p-4 bg-white hand-drawn">
+                        <h3 class="text-xl font-bold mb-2 text-green-600">Community</h3>
+                        <a href="#" class="underline-drawn text-lg">
+                            <i class="fab fa-telegram mr-2"></i> Join our Telegram
+                        </a>
+                    </div>
+                    
+                    <!-- Contract Address -->
+                    <div class="p-4 bg-white hand-drawn">
+                        <h3 class="text-xl font-bold mb-2 text-yellow-600">Contract</h3>
+                        <div class="flex items-center">
+                            <span class="text-sm font-mono bg-gray-100 p-2 rounded break-all">0x0000000000000000000000000000000000000000</span>
+                            <button class="ml-2 p-2 bg-gray-200 rounded hand-drawn-btn">
+                                <i class="fas fa-copy"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mt-6 p-4 bg-white hand-drawn">
+                    <h3 class="text-xl font-bold mb-2 text-red-600">Tokenomics</h3>
+                    <ul class="list-disc pl-5">
+                        <li class="mb-2">NO TAXES - Pure community token</li>
+                        <li class="mb-2">CTO (Community Take Over)</li>
+                        <li class="mb-2">Solana blockchain</li>
+                        <li class="mb-2">100% fair launch</li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        
+        <!-- Footer -->
+        <footer class="mt-12 py-6 border-t-2 border-black text-center">
+            <p class="text-lg">© 2023 CULT - Currently Unemployed Losing Trades. All rights reserved (not really).</p>
+            <p class="mt-2">This is a meme coin with no intrinsic value or expectation of financial return.</p>
+        </footer>
+    </div>
+    
+    <script>
+        // Simple copy function for contract address
+        document.querySelector('.fa-copy').parentElement.addEventListener('click', function() {
+            const contractAddress = document.querySelector('.font-mono').textContent;
+            navigator.clipboard.writeText(contractAddress).then(function() {
+                alert('Contract address copied to clipboard!');
+            }, function() {
+                alert('Failed to copy contract address');
+            });
+        });
+    </script>
+</body>
+</html>
